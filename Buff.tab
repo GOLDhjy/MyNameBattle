@@ -1,0 +1,5 @@
+﻿BuffName	Target	Value	BuffDep
+天女散花	HP	1.1	增加当前生命值的1.1倍的血量
+十方步	Dodge	1	灵机一动，闪避了过去
+立地生根	Defense	1.5	防御增加1.5倍
+无法无相	Shooting	1	这一回合命中
