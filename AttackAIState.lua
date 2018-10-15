@@ -25,7 +25,7 @@ function AttackAIState:Update( oneself , enemy  )
 	oneself:ChangeSkill()
 	oneself:ChangeBuff()
 
-	if oneself.Buff.Target == "Shooting" then
+	if oneself.Buff.Target == "Shooting" or oneself.Buff.Target == "HP" then
 		print( "角色:【"..oneself.Name.."】 【"..oneself.Buff.BuffName.."】,->"..oneself.Buff.BuffDep )
 		oneself:DoBuffWithPicture( oneself.Buff )
 	end
